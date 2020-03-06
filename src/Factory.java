@@ -9,6 +9,7 @@ import cards.*;
  * @date 06/03/2020
  */
 public class Factory {
+	private String notUsed = null;
 	
 	public static Card getCard(int number, String name, int cvv, String cardType) {
 		if(cardType.equals("Mastercard")) {
