@@ -14,7 +14,7 @@ public class Visa extends Card {
 	// Specific implementation for Visa
 	@Override
 	public String toString() {
-		return "Type: VISA, Number: " + getNumber() + ", Name: " + getName();
+		return "Type: VISA, Number: " + getNumber() + ", Name: " + getName()+", CVV: "+ getCvv();
 		
 	}
 
